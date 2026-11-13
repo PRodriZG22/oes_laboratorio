@@ -1,0 +1,18 @@
+{
+  "fecha_lima": "2026-11-13T18:29:54-05:00",
+  "python": "3.14.3",
+  "sistema": "Windows",
+  "sqlite": "3.50.4",
+  "dependencias": {
+    "streamlit": "1.67.0",
+    "pandas": "3.1.1",
+    "fpdf2": "2.9.0",
+    "pypdf": "7.1.0"
+  },
+  "base_entregada": {
+    "filas": 4,
+    "urls_distintas": 4,
+    "didacticos": 3,
+    "verificados": 1
+  }
+}

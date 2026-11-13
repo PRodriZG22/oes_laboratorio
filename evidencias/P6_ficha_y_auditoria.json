@@ -1,0 +1,18 @@
+{
+  "total_antes": 3,
+  "total_despues": 4,
+  "alcance": "Base temporal; confirmación humana simulada para probar el formulario",
+  "ficha": {
+    "id": 4,
+    "titulo": "Examen de Beca 18 del Pronabec se realizará el 22 de noviembre",
+    "institucion": "PRONABEC",
+    "categoria": "Ente rector",
+    "fuente": "Diario Oficial El Peruano",
+    "fecha": "2026-10-22",
+    "url": "https://elperuano.pe/noticia/307395-examen-de-beca-18-del-pronabec-se-realizara-el-22-de-noviembre",
+    "resumen": "La convocatoria 2027 prevé una evaluación presencial en todo el país el 22 de noviembre de 2026.",
+    "fecha_de_captura": "2026-11-13T22:48:39Z",
+    "verificado_por": "Revisión documental de prueba (asistida)",
+    "estado_de_verificacion": "verificado"
+  }
+}

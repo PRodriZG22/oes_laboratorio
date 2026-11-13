@@ -1,0 +1,24 @@
+PRUEBA P1 - CARGA INICIAL IDEMPOTENTE (DOBLE EJECUCION CLI)
+Fecha de ejecucion (Lima UTC-5): 2026-11-13T18:12:28-05:00
+Comando ejecutado: python preparar_datos.py --db C:\Users\Piero\AppData\Local\Temp\tmp48pumt5g\oes_p1_temporal.db
+
+--- EJECUCION 1 (base ausente) ---
+Codigo de salida: 0
+Base creada: C:\Users\Piero\AppData\Local\Temp\tmp48pumt5g\oes_p1_temporal.db
+Registros: 3 | Nuevos: 3
+Los tres ejemplos son didácticos y NO son noticias verificadas.
+
+--- EJECUCION 2 (misma base, segunda carga) ---
+Codigo de salida: 0
+Base creada: C:\Users\Piero\AppData\Local\Temp\tmp48pumt5g\oes_p1_temporal.db
+Registros: 3 | Nuevos: 0
+Los tres ejemplos son didácticos y NO son noticias verificadas.
+
+--- CONSULTA SQLITE DE VERIFICACION ---
+SQL: SELECT COUNT(*), COUNT(DISTINCT url) FROM noticias;
+Resultado: COUNT(*) = 3 | COUNT(DISTINCT url) = 3
+
+SQL: SELECT id, titulo, institucion, categoria, fecha, url, estado_de_verificacion, verificado_por FROM noticias ORDER BY id;
+  (1, 'Ejemplo: convocatoria de becas', 'PRONABEC', 'Ente rector', '2026-11-06', 'https://www.pronabec.gob.pe/', 'didactico', None)
+  (2, 'Ejemplo: actividad de investigación', 'UNMSM', 'Universidad pública', '2026-11-06', 'https://www.unmsm.edu.pe/', 'didactico', None)
+  (3, 'Ejemplo: programa académico', 'PUCP', 'Universidad privada', '2026-11-05', 'https://www.pucp.edu.pe/', 'didactico', None)

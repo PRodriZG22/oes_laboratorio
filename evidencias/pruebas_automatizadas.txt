@@ -1,0 +1,50 @@
+test_P2_interfaz_categoria_UNMSM (test_app.InterfazTest.test_P2_interfaz_categoria_UNMSM) ... 2026-11-13 18:32:28.321 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_P3_interfaz_busqueda_PUCP (test_app.InterfazTest.test_P3_interfaz_busqueda_PUCP) ... 2026-11-13 18:32:29.560 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_P4_interfaz_sin_resultados_sin_error (test_app.InterfazTest.test_P4_interfaz_sin_resultados_sin_error) ... 2026-11-13 18:32:30.034 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_P6_formulario_confirmacion_alta_auditoria_y_duplicado (test_app.InterfazTest.test_P6_formulario_confirmacion_alta_auditoria_y_duplicado) ... 2026-11-13 18:32:30.540 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_arranque_auto_y_KPIs (test_app.InterfazTest.test_arranque_auto_y_KPIs) ... 2026-11-13 18:32:31.449 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_fecha_inclusiva_y_rango_incompleto (test_app.InterfazTest.test_fecha_inclusiva_y_rango_incompleto) ... 2026-11-13 18:32:31.782 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_restablecer_recupera_categorias_texto_y_fechas (test_app.InterfazTest.test_restablecer_recupera_categorias_texto_y_fechas) ... 2026-11-13 18:32:32.387 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_sin_categorias_se_maneja (test_app.InterfazTest.test_sin_categorias_se_maneja) ... 2026-11-13 18:32:33.370 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_P1_carga_dos_veces_sin_duplicacion_y_campos_exactos (test_datos.DatosTest.test_P1_carga_dos_veces_sin_duplicacion_y_campos_exactos) ... ok
+test_P6_registro_real_con_url_y_auditoria (test_datos.DatosTest.test_P6_registro_real_con_url_y_auditoria) ... ok
+test_archivo_cero_bytes_se_recupera (test_datos.DatosTest.test_archivo_cero_bytes_se_recupera) ... ok
+test_auditoria_inicial_no_declara_verificados (test_datos.DatosTest.test_auditoria_inicial_no_declara_verificados) ... ok
+test_base_ausente_se_inicializa_automaticamente (test_datos.DatosTest.test_base_ausente_se_inicializa_automaticamente) ... ok
+test_base_corrupta_no_se_borra (test_datos.DatosTest.test_base_corrupta_no_se_borra) ... ok
+test_base_no_vacia_no_recibe_ejemplos_por_arranque (test_datos.DatosTest.test_base_no_vacia_no_recibe_ejemplos_por_arranque) ... ok
+test_campos_vacios_y_longitudes_se_rechazan (test_datos.DatosTest.test_campos_vacios_y_longitudes_se_rechazan) ... ok
+test_duplicado_no_modifica_ficha (test_datos.DatosTest.test_duplicado_no_modifica_ficha) ... ok
+test_esquema_incompatible_se_rechaza (test_datos.DatosTest.test_esquema_incompatible_se_rechaza) ... ok
+test_fechas_imposibles_y_futuras_se_rechazan (test_datos.DatosTest.test_fechas_imposibles_y_futuras_se_rechazan) ... ok
+test_migracion_basica_conserva_datos_y_no_inventa_verificacion (test_datos.DatosTest.test_migracion_basica_conserva_datos_y_no_inventa_verificacion) ... ok
+test_registro_exige_confirmacion_explicita (test_datos.DatosTest.test_registro_exige_confirmacion_explicita) ... ok
+test_restricciones_unicidad_y_responsable_en_sqlite (test_datos.DatosTest.test_restricciones_unicidad_y_responsable_en_sqlite) ... ok
+test_ruta_parametrizada_y_conexion_cerrada (test_datos.DatosTest.test_ruta_parametrizada_y_conexion_cerrada) ... ok
+test_tabla_vacia_se_recupera (test_datos.DatosTest.test_tabla_vacia_se_recupera) ... ok
+test_url_invalida_o_portada_se_rechaza (test_datos.DatosTest.test_url_invalida_o_portada_se_rechaza) ... ok
+test_CSV_neutraliza_formulas_sin_modificar_original (test_servicios.ServiciosTest.test_CSV_neutraliza_formulas_sin_modificar_original) ... ok
+test_CSV_vacio_conserva_encabezados (test_servicios.ServiciosTest.test_CSV_vacio_conserva_encabezados) ... ok
+test_P2_filtro_universidad_publica_devuelve_UNMSM (test_servicios.ServiciosTest.test_P2_filtro_universidad_publica_devuelve_UNMSM) ... ok
+test_P3_busqueda_PUCP_devuelve_una_fila (test_servicios.ServiciosTest.test_P3_busqueda_PUCP_devuelve_una_fila) ... ok
+test_P4_termino_inexistente_devuelve_cero (test_servicios.ServiciosTest.test_P4_termino_inexistente_devuelve_cero) ... ok
+test_P5_CSV_BOM_encabezados_y_filas_filtradas (test_servicios.ServiciosTest.test_P5_CSV_BOM_encabezados_y_filas_filtradas) ... ok
+test_PDF_paginacion_con_texto_extenso (test_servicios.ServiciosTest.test_PDF_paginacion_con_texto_extenso) ... ok
+test_PDF_seleccion_tiene_trazabilidad_y_URL_clicable (test_servicios.ServiciosTest.test_PDF_seleccion_tiene_trazabilidad_y_URL_clicable) ... ok
+test_PDF_vacio_y_unicode_no_cubierto (test_servicios.ServiciosTest.test_PDF_vacio_y_unicode_no_cubierto) ... ok
+test_fechas_inclusivas_y_combinacion_AND (test_servicios.ServiciosTest.test_fechas_inclusivas_y_combinacion_AND) ... ok
+test_kpis_iniciales_3_3_3 (test_servicios.ServiciosTest.test_kpis_iniciales_3_3_3) ... ok
+test_sin_categorias_y_busqueda_literal (test_servicios.ServiciosTest.test_sin_categorias_y_busqueda_literal) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 7.050s
+
+OK

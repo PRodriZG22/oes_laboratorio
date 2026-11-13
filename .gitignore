@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+.streamlit/secrets.toml
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+.DS_Store
+Thumbs.db
+artifacts/
+# La base inicial oes.db se puede subir voluntariamente.
+!oes.db
